@@ -1,0 +1,232 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.mnk-clothing-serif{font-family:serif}.mnk-clothing-sans-serif{font-family:sans-serif}.mnk-clothing-cursive{font-family:cursive}.mnk-clothing-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.mnk-clothing-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.mnk-clothing-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.mnk-clothing-table,.mnk-clothing-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.mnk-clothing-table-all{border:1px solid #ccc}
+.mnk-clothing-bordered tr,.mnk-clothing-table-all tr{border-bottom:1px solid #ddd}.mnk-clothing-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.mnk-clothing-table-all tr:nth-child(odd){background-color:#fff}.mnk-clothing-table-all tr:nth-child(even){background-color:#f1f1f1}
+.mnk-clothing-hoverable tbody tr:hover,.mnk-clothing-ul.mnk-clothing-hoverable li:hover{background-color:#ccc}.mnk-clothing-centered tr th,.mnk-clothing-centered tr td{text-align:center}
+.mnk-clothing-table td,.mnk-clothing-table th,.mnk-clothing-table-all td,.mnk-clothing-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.mnk-clothing-table th:first-child,.mnk-clothing-table td:first-child,.mnk-clothing-table-all th:first-child,.mnk-clothing-table-all td:first-child{padding-left:16px}
+.mnk-clothing-btn,.mnk-clothing-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.mnk-clothing-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.mnk-clothing-btn,.mnk-clothing-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.mnk-clothing-disabled,.mnk-clothing-btn:disabled,.mnk-clothing-button:disabled{cursor:not-allowed;opacity:0.3}.mnk-clothing-disabled *,:disabled *{pointer-events:none}
+.mnk-clothing-btn.mnk-clothing-disabled:hover,.mnk-clothing-btn:disabled:hover{box-shadow:none}
+.mnk-clothing-badge,.mnk-clothing-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.mnk-clothing-badge{border-radius:50%}
+.mnk-clothing-ul{list-style-type:none;padding:0;margin:0}.mnk-clothing-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.mnk-clothing-ul li:last-child{border-bottom:none}
+.mnk-clothing-tooltip,.mnk-clothing-display-container{position:relative}.mnk-clothing-tooltip .mnk-clothing-text{display:none}.mnk-clothing-tooltip:hover .mnk-clothing-text{display:inline-block}
+.mnk-clothing-ripple:active{opacity:0.5}.mnk-clothing-ripple{transition:opacity 0s}
+.mnk-clothing-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.mnk-clothing-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.mnk-clothing-dropdown-click,.mnk-clothing-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.mnk-clothing-dropdown-hover:hover .mnk-clothing-dropdown-content{display:block}
+.mnk-clothing-dropdown-hover:first-child,.mnk-clothing-dropdown-click:hover{background-color:#ccc;color:#000}
+.mnk-clothing-dropdown-hover:hover > .mnk-clothing-button:first-child,.mnk-clothing-dropdown-click:hover > .mnk-clothing-button:first-child{background-color:#ccc;color:#000}
+.mnk-clothing-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.mnk-clothing-check,.mnk-clothing-radio{width:24px;height:24px;position:relative;top:6px}
+.mnk-clothing-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.mnk-clothing-bar-block .mnk-clothing-dropdown-hover,.mnk-clothing-bar-block .mnk-clothing-dropdown-click{width:100%}
+.mnk-clothing-bar-block .mnk-clothing-dropdown-hover .mnk-clothing-dropdown-content,.mnk-clothing-bar-block .mnk-clothing-dropdown-click .mnk-clothing-dropdown-content{min-width:100%}
+.mnk-clothing-bar-block .mnk-clothing-dropdown-hover .mnk-clothing-button,.mnk-clothing-bar-block .mnk-clothing-dropdown-click .mnk-clothing-button{width:100%;text-align:left;padding:8px 16px}
+.mnk-clothing-main,#main{transition:margin-left .4s}
+.mnk-clothing-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.mnk-clothing-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.mnk-clothing-bar{width:100%;overflow:hidden}.mnk-clothing-center .mnk-clothing-bar{display:inline-block;width:auto}
+.mnk-clothing-bar .mnk-clothing-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.mnk-clothing-bar .mnk-clothing-dropdown-hover,.mnk-clothing-bar .mnk-clothing-dropdown-click{position:static;float:left}
+.mnk-clothing-bar .mnk-clothing-button{white-space:normal}
+.mnk-clothing-bar-block .mnk-clothing-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.mnk-clothing-bar-block.mnk-clothing-center .mnk-clothing-bar-item{text-align:center}.mnk-clothing-block{display:block;width:100%}
+.mnk-clothing-responsive{display:block;overflow-x:auto}
+.mnk-clothing-container:after,.mnk-clothing-container:before,.mnk-clothing-panel:after,.mnk-clothing-panel:before,.mnk-clothing-row:after,.mnk-clothing-row:before,.mnk-clothing-row-padding:after,.mnk-clothing-row-padding:before,
+.mnk-clothing-cell-row:before,.mnk-clothing-cell-row:after,.mnk-clothing-clear:after,.mnk-clothing-clear:before,.mnk-clothing-bar:before,.mnk-clothing-bar:after{content:"";display:table;clear:both}
+.mnk-clothing-col,.mnk-clothing-half,.mnk-clothing-third,.mnk-clothing-twothird,.mnk-clothing-threequarter,.mnk-clothing-quarter{float:left;width:100%}
+.mnk-clothing-col.s1{width:8.33333%}.mnk-clothing-col.s2{width:16.66666%}.mnk-clothing-col.s3{width:24.99999%}.mnk-clothing-col.s4{width:33.33333%}
+.mnk-clothing-col.s5{width:41.66666%}.mnk-clothing-col.s6{width:49.99999%}.mnk-clothing-col.s7{width:58.33333%}.mnk-clothing-col.s8{width:66.66666%}
+.mnk-clothing-col.s9{width:74.99999%}.mnk-clothing-col.s10{width:83.33333%}.mnk-clothing-col.s11{width:91.66666%}.mnk-clothing-col.s12{width:99.99999%}
+@media (min-width:601px){.mnk-clothing-col.m1{width:8.33333%}.mnk-clothing-col.m2{width:16.66666%}.mnk-clothing-col.m3,.mnk-clothing-quarter{width:24.99999%}.mnk-clothing-col.m4,.mnk-clothing-third{width:33.33333%}
+.mnk-clothing-col.m5{width:41.66666%}.mnk-clothing-col.m6,.mnk-clothing-half{width:49.99999%}.mnk-clothing-col.m7{width:58.33333%}.mnk-clothing-col.m8,.mnk-clothing-twothird{width:66.66666%}
+.mnk-clothing-col.m9,.mnk-clothing-threequarter{width:74.99999%}.mnk-clothing-col.m10{width:83.33333%}.mnk-clothing-col.m11{width:91.66666%}.mnk-clothing-col.m12{width:99.99999%}}
+@media (min-width:993px){.mnk-clothing-col.l1{width:8.33333%}.mnk-clothing-col.l2{width:16.66666%}.mnk-clothing-col.l3{width:24.99999%}.mnk-clothing-col.l4{width:33.33333%}
+.mnk-clothing-col.l5{width:41.66666%}.mnk-clothing-col.l6{width:49.99999%}.mnk-clothing-col.l7{width:58.33333%}.mnk-clothing-col.l8{width:66.66666%}
+.mnk-clothing-col.l9{width:74.99999%}.mnk-clothing-col.l10{width:83.33333%}.mnk-clothing-col.l11{width:91.66666%}.mnk-clothing-col.l12{width:99.99999%}}
+.mnk-clothing-rest{overflow:hidden}.mnk-clothing-stretch{margin-left:-16px;margin-right:-16px}
+.mnk-clothing-content,.mnk-clothing-auto{margin-left:auto;margin-right:auto}.mnk-clothing-content{max-width:980px}.mnk-clothing-auto{max-width:1140px}
+.mnk-clothing-cell-row{display:table;width:100%}.mnk-clothing-cell{display:table-cell}
+.mnk-clothing-cell-top{vertical-align:top}.mnk-clothing-cell-middle{vertical-align:middle}.mnk-clothing-cell-bottom{vertical-align:bottom}
+.mnk-clothing-hide{display:none!important}.mnk-clothing-show-block,.mnk-clothing-show{display:block!important}.mnk-clothing-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.mnk-clothing-auto{max-width:95%}}
+@media (max-width:600px){.mnk-clothing-modal-content{margin:0 10px;width:auto!important}.mnk-clothing-modal{padding-top:30px}
+.mnk-clothing-dropdown-hover.mnk-clothing-mobile .mnk-clothing-dropdown-content,.mnk-clothing-dropdown-click.mnk-clothing-mobile .mnk-clothing-dropdown-content{position:relative}	
+.mnk-clothing-hide-small{display:none!important}.mnk-clothing-mobile{display:block;width:100%!important}.mnk-clothing-bar-item.mnk-clothing-mobile,.mnk-clothing-dropdown-hover.mnk-clothing-mobile,.mnk-clothing-dropdown-click.mnk-clothing-mobile{text-align:center}
+.mnk-clothing-dropdown-hover.mnk-clothing-mobile,.mnk-clothing-dropdown-hover.mnk-clothing-mobile .mnk-clothing-btn,.mnk-clothing-dropdown-hover.mnk-clothing-mobile .mnk-clothing-button,.mnk-clothing-dropdown-click.mnk-clothing-mobile,.mnk-clothing-dropdown-click.mnk-clothing-mobile .mnk-clothing-btn,.mnk-clothing-dropdown-click.mnk-clothing-mobile .mnk-clothing-button{width:100%}}
+@media (max-width:768px){.mnk-clothing-modal-content{width:500px}.mnk-clothing-modal{padding-top:50px}}
+@media (min-width:993px){.mnk-clothing-modal-content{width:900px}.mnk-clothing-hide-large{display:none!important}.mnk-clothing-sidebar.mnk-clothing-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.mnk-clothing-hide-medium{display:none!important}}
+@media (max-width:992px){.mnk-clothing-sidebar.mnk-clothing-collapse{display:none}.mnk-clothing-main{margin-left:0!important;margin-right:0!important}.mnk-clothing-auto{max-width:100%}}
+.mnk-clothing-top,.mnk-clothing-bottom{position:fixed;width:100%;z-index:1}.mnk-clothing-top{top:0}.mnk-clothing-bottom{bottom:0}
+.mnk-clothing-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.mnk-clothing-display-topleft{position:absolute;left:0;top:0}.mnk-clothing-display-topright{position:absolute;right:0;top:0}
+.mnk-clothing-display-bottomleft{position:absolute;left:0;bottom:0}.mnk-clothing-display-bottomright{position:absolute;right:0;bottom:0}
+.mnk-clothing-display-middle{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.mnk-clothing-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.mnk-clothing-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.mnk-clothing-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.mnk-clothing-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.mnk-clothing-display-container:hover .mnk-clothing-display-hover{display:block}.mnk-clothing-display-container:hover span.mnk-clothing-display-hover{display:inline-block}.mnk-clothing-display-hover{display:none}
+.mnk-clothing-display-position{position:absolute}
+.mnk-clothing-circle{border-radius:50%}
+.mnk-clothing-round-small{border-radius:2px}.mnk-clothing-round,.mnk-clothing-round-medium{border-radius:4px}.mnk-clothing-round-large{border-radius:8px}.mnk-clothing-round-xlarge{border-radius:16px}.mnk-clothing-round-xxlarge{border-radius:32px}
+.mnk-clothing-row-padding,.mnk-clothing-row-padding>.mnk-clothing-half,.mnk-clothing-row-padding>.mnk-clothing-third,.mnk-clothing-row-padding>.mnk-clothing-twothird,.mnk-clothing-row-padding>.mnk-clothing-threequarter,.mnk-clothing-row-padding>.mnk-clothing-quarter,.mnk-clothing-row-padding>.mnk-clothing-col{padding:0 8px}
+.mnk-clothing-container,.mnk-clothing-panel{padding:0.01em 16px}.mnk-clothing-panel{margin-top:16px;margin-bottom:16px}
+.mnk-clothing-code,.mnk-clothing-codespan{font-family:Consolas,"courier new";font-size:16px}
+.mnk-clothing-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.mnk-clothing-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.mnk-clothing-card,.mnk-clothing-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.mnk-clothing-card-4,.mnk-clothing-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.mnk-clothing-spin{animation:mnk-clothing-spin 2s infinite linear}@keyframes mnk-clothing-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.mnk-clothing-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.mnk-clothing-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.mnk-clothing-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.mnk-clothing-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.mnk-clothing-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.mnk-clothing-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.mnk-clothing-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.mnk-clothing-animate-input{transition:width 0.4s ease-in-out}.mnk-clothing-animate-input:focus{width:100%!important}
+.mnk-clothing-opacity,.mnk-clothing-hover-opacity:hover{opacity:0.60}.mnk-clothing-opacity-off,.mnk-clothing-hover-opacity-off:hover{opacity:1}
+.mnk-clothing-opacity-max{opacity:0.25}.mnk-clothing-opacity-min{opacity:0.75}
+.mnk-clothing-greyscale-max,.mnk-clothing-grayscale-max,.mnk-clothing-hover-greyscale:hover,.mnk-clothing-hover-grayscale:hover{filter:grayscale(100%)}
+.mnk-clothing-greyscale,.mnk-clothing-grayscale{filter:grayscale(75%)}.mnk-clothing-greyscale-min,.mnk-clothing-grayscale-min{filter:grayscale(50%)}
+.mnk-clothing-sepia{filter:sepia(75%)}.mnk-clothing-sepia-max,.mnk-clothing-hover-sepia:hover{filter:sepia(100%)}.mnk-clothing-sepia-min{filter:sepia(50%)}
+.mnk-clothing-tiny{font-size:10px!important}.mnk-clothing-small{font-size:12px!important}.mnk-clothing-medium{font-size:15px!important}.mnk-clothing-large{font-size:18px!important}
+.mnk-clothing-xlarge{font-size:24px!important}.mnk-clothing-xxlarge{font-size:36px!important}.mnk-clothing-xxxlarge{font-size:48px!important}.mnk-clothing-jumbo{font-size:64px!important}
+.mnk-clothing-left-align{text-align:left!important}.mnk-clothing-right-align{text-align:right!important}.mnk-clothing-justify{text-align:justify!important}.mnk-clothing-center{text-align:center!important}
+.mnk-clothing-border-0{border:0!important}.mnk-clothing-border{border:1px solid #ccc!important}
+.mnk-clothing-border-top{border-top:1px solid #ccc!important}.mnk-clothing-border-bottom{border-bottom:1px solid #ccc!important}
+.mnk-clothing-border-left{border-left:1px solid #ccc!important}.mnk-clothing-border-right{border-right:1px solid #ccc!important}
+.mnk-clothing-topbar{border-top:6px solid #ccc!important}.mnk-clothing-bottombar{border-bottom:6px solid #ccc!important}
+.mnk-clothing-leftbar{border-left:6px solid #ccc!important}.mnk-clothing-rightbar{border-right:6px solid #ccc!important}
+.mnk-clothing-section,.mnk-clothing-code{margin-top:16px!important;margin-bottom:16px!important}
+.mnk-clothing-margin{margin:16px!important}.mnk-clothing-margin-top{margin-top:16px!important}.mnk-clothing-margin-bottom{margin-bottom:16px!important}
+.mnk-clothing-margin-left{margin-left:16px!important}.mnk-clothing-margin-right{margin-right:16px!important}
+.mnk-clothing-padding-small{padding:4px 8px!important}.mnk-clothing-padding{padding:8px 16px!important}.mnk-clothing-padding-large{padding:12px 24px!important}
+.mnk-clothing-padding-16{padding-top:16px!important;padding-bottom:16px!important}.mnk-clothing-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.mnk-clothing-padding-32{padding-top:32px!important;padding-bottom:32px!important}.mnk-clothing-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.mnk-clothing-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.mnk-clothing-padding-top-64{padding-top:64px!important}.mnk-clothing-padding-top-48{padding-top:48px!important}
+.mnk-clothing-padding-top-32{padding-top:32px!important}.mnk-clothing-padding-top-24{padding-top:24px!important}
+.mnk-clothing-left{float:left!important}.mnk-clothing-right{float:right!important}
+.mnk-clothing-button:hover{color:#000!important;background-color:#ccc!important}
+.mnk-clothing-transparent,.mnk-clothing-hover-none:hover{background-color:transparent!important}
+.mnk-clothing-hover-none:hover{box-shadow:none!important}
+.mnk-clothing-amber,.mnk-clothing-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.mnk-clothing-aqua,.mnk-clothing-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.mnk-clothing-blue,.mnk-clothing-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.mnk-clothing-light-blue,.mnk-clothing-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.mnk-clothing-brown,.mnk-clothing-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.mnk-clothing-cyan,.mnk-clothing-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.mnk-clothing-blue-grey,.mnk-clothing-hover-blue-grey:hover,.mnk-clothing-blue-gray,.mnk-clothing-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.mnk-clothing-green,.mnk-clothing-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.mnk-clothing-light-green,.mnk-clothing-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.mnk-clothing-indigo,.mnk-clothing-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.mnk-clothing-khaki,.mnk-clothing-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.mnk-clothing-lime,.mnk-clothing-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.mnk-clothing-orange,.mnk-clothing-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.mnk-clothing-deep-orange,.mnk-clothing-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.mnk-clothing-pink,.mnk-clothing-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.mnk-clothing-purple,.mnk-clothing-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.mnk-clothing-deep-purple,.mnk-clothing-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.mnk-clothing-red,.mnk-clothing-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.mnk-clothing-sand,.mnk-clothing-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.mnk-clothing-teal,.mnk-clothing-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.mnk-clothing-yellow,.mnk-clothing-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.mnk-clothing-white,.mnk-clothing-hover-white:hover{color:#000!important;background-color:#fff!important}
+.mnk-clothing-black,.mnk-clothing-hover-black:hover{color:#fff!important;background-color:#000!important}
+.mnk-clothing-grey,.mnk-clothing-hover-grey:hover,.mnk-clothing-gray,.mnk-clothing-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.mnk-clothing-light-grey,.mnk-clothing-hover-light-grey:hover,.mnk-clothing-light-gray,.mnk-clothing-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.mnk-clothing-dark-grey,.mnk-clothing-hover-dark-grey:hover,.mnk-clothing-dark-gray,.mnk-clothing-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.mnk-clothing-pale-red,.mnk-clothing-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.mnk-clothing-pale-green,.mnk-clothing-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.mnk-clothing-pale-yellow,.mnk-clothing-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.mnk-clothing-pale-blue,.mnk-clothing-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.mnk-clothing-text-amber,.mnk-clothing-hover-text-amber:hover{color:#ffc107!important}
+.mnk-clothing-text-aqua,.mnk-clothing-hover-text-aqua:hover{color:#00ffff!important}
+.mnk-clothing-text-blue,.mnk-clothing-hover-text-blue:hover{color:#2196F3!important}
+.mnk-clothing-text-light-blue,.mnk-clothing-hover-text-light-blue:hover{color:#87CEEB!important}
+.mnk-clothing-text-brown,.mnk-clothing-hover-text-brown:hover{color:#795548!important}
+.mnk-clothing-text-cyan,.mnk-clothing-hover-text-cyan:hover{color:#00bcd4!important}
+.mnk-clothing-text-blue-grey,.mnk-clothing-hover-text-blue-grey:hover,.mnk-clothing-text-blue-gray,.mnk-clothing-hover-text-blue-gray:hover{color:#607d8b!important}
+.mnk-clothing-text-green,.mnk-clothing-hover-text-green:hover{color:#4CAF50!important}
+.mnk-clothing-text-light-green,.mnk-clothing-hover-text-light-green:hover{color:#8bc34a!important}
+.mnk-clothing-text-indigo,.mnk-clothing-hover-text-indigo:hover{color:#3f51b5!important}
+.mnk-clothing-text-khaki,.mnk-clothing-hover-text-khaki:hover{color:#b4aa50!important}
+.mnk-clothing-text-lime,.mnk-clothing-hover-text-lime:hover{color:#cddc39!important}
+.mnk-clothing-text-orange,.mnk-clothing-hover-text-orange:hover{color:#ff9800!important}
+.mnk-clothing-text-deep-orange,.mnk-clothing-hover-text-deep-orange:hover{color:#ff5722!important}
+.mnk-clothing-text-pink,.mnk-clothing-hover-text-pink:hover{color:#e91e63!important}
+.mnk-clothing-text-purple,.mnk-clothing-hover-text-purple:hover{color:#9c27b0!important}
+.mnk-clothing-text-deep-purple,.mnk-clothing-hover-text-deep-purple:hover{color:#673ab7!important}
+.mnk-clothing-text-red,.mnk-clothing-hover-text-red:hover{color:#f44336!important}
+.mnk-clothing-text-sand,.mnk-clothing-hover-text-sand:hover{color:#fdf5e6!important}
+.mnk-clothing-text-teal,.mnk-clothing-hover-text-teal:hover{color:#009688!important}
+.mnk-clothing-text-yellow,.mnk-clothing-hover-text-yellow:hover{color:#d2be0e!important}
+.mnk-clothing-text-white,.mnk-clothing-hover-text-white:hover{color:#fff!important}
+.mnk-clothing-text-black,.mnk-clothing-hover-text-black:hover{color:#000!important}
+.mnk-clothing-text-grey,.mnk-clothing-hover-text-grey:hover,.mnk-clothing-text-gray,.mnk-clothing-hover-text-gray:hover{color:#757575!important}
+.mnk-clothing-text-light-grey,.mnk-clothing-hover-text-light-grey:hover,.mnk-clothing-text-light-gray,.mnk-clothing-hover-text-light-gray:hover{color:#f1f1f1!important}
+.mnk-clothing-text-dark-grey,.mnk-clothing-hover-text-dark-grey:hover,.mnk-clothing-text-dark-gray,.mnk-clothing-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.mnk-clothing-border-amber,.mnk-clothing-hover-border-amber:hover{border-color:#ffc107!important}
+.mnk-clothing-border-aqua,.mnk-clothing-hover-border-aqua:hover{border-color:#00ffff!important}
+.mnk-clothing-border-blue,.mnk-clothing-hover-border-blue:hover{border-color:#2196F3!important}
+.mnk-clothing-border-light-blue,.mnk-clothing-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.mnk-clothing-border-brown,.mnk-clothing-hover-border-brown:hover{border-color:#795548!important}
+.mnk-clothing-border-cyan,.mnk-clothing-hover-border-cyan:hover{border-color:#00bcd4!important}
+.mnk-clothing-border-blue-grey,.mnk-clothing-hover-border-blue-grey:hover,.mnk-clothing-border-blue-gray,.mnk-clothing-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.mnk-clothing-border-green,.mnk-clothing-hover-border-green:hover{border-color:#4CAF50!important}
+.mnk-clothing-border-light-green,.mnk-clothing-hover-border-light-green:hover{border-color:#8bc34a!important}
+.mnk-clothing-border-indigo,.mnk-clothing-hover-border-indigo:hover{border-color:#3f51b5!important}
+.mnk-clothing-border-khaki,.mnk-clothing-hover-border-khaki:hover{border-color:#f0e68c!important}
+.mnk-clothing-border-lime,.mnk-clothing-hover-border-lime:hover{border-color:#cddc39!important}
+.mnk-clothing-border-orange,.mnk-clothing-hover-border-orange:hover{border-color:#ff9800!important}
+.mnk-clothing-border-deep-orange,.mnk-clothing-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.mnk-clothing-border-pink,.mnk-clothing-hover-border-pink:hover{border-color:#e91e63!important}
+.mnk-clothing-border-purple,.mnk-clothing-hover-border-purple:hover{border-color:#9c27b0!important}
+.mnk-clothing-border-deep-purple,.mnk-clothing-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.mnk-clothing-border-red,.mnk-clothing-hover-border-red:hover{border-color:#f44336!important}
+.mnk-clothing-border-sand,.mnk-clothing-hover-border-sand:hover{border-color:#fdf5e6!important}
+.mnk-clothing-border-teal,.mnk-clothing-hover-border-teal:hover{border-color:#009688!important}
+.mnk-clothing-border-yellow,.mnk-clothing-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.mnk-clothing-border-white,.mnk-clothing-hover-border-white:hover{border-color:#fff!important}
+.mnk-clothing-border-black,.mnk-clothing-hover-border-black:hover{border-color:#000!important}
+.mnk-clothing-border-grey,.mnk-clothing-hover-border-grey:hover,.mnk-clothing-border-gray,.mnk-clothing-hover-border-gray:hover{border-color:#9e9e9e!important}
+.mnk-clothing-border-light-grey,.mnk-clothing-hover-border-light-grey:hover,.mnk-clothing-border-light-gray,.mnk-clothing-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.mnk-clothing-border-dark-grey,.mnk-clothing-hover-border-dark-grey:hover,.mnk-clothing-border-dark-gray,.mnk-clothing-hover-border-dark-gray:hover{border-color:#616161!important}
+.mnk-clothing-border-pale-red,.mnk-clothing-hover-border-pale-red:hover{border-color:#ffe7e7!important}.mnk-clothing-border-pale-green,.mnk-clothing-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.mnk-clothing-border-pale-yellow,.mnk-clothing-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.mnk-clothing-border-pale-blue,.mnk-clothing-hover-border-pale-blue:hover{border-color:#e7ffff!important}
